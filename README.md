@@ -14,3 +14,13 @@ StoryPoints AI processes large-scale clickstream, transaction, and currency conv
     - had to review a bit of pandas and using it for data transformation
 5. Reviewing and improving code with routines to make it as DRY as possible
 
+## Architecture Diagram
+![Architecture diagram](<Screenshot 2025-10-14 at 23.04.15.png>)
+
+## Screenshots 
+- Below are screenshots for data stored in GCS bucket by partitioning. i.e. clickstream.csv, transaction.csv and exchange_rates.json
+- ![transformed clickstream.csv](<Screenshot 2025-10-14 at 23.08.28.png>)
+- ![transformed transactions.csv](<Screenshot 2025-10-14 at 23.08.42.png>)
+- ![exchange_rates.json](<Screenshot 2025-10-14 at 23.08.05.png>)
+- Sample screenshot of transformed and enriched transactions file
+![transactions.csv with amount_in_usd column](<Screenshot 2025-10-14 at 23.15.10.png>)
