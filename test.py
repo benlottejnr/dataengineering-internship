@@ -1,6 +1,6 @@
 import os
 import requests
-API_KEY = "d4d1547e423242e2d0f3f8c3" # Replace with your key
+API_KEY = "d4d1547e423242e2d0f3f8c3" #api key for currency conversion
 url = f"https://v6.exchangerate-api.com/v6/{API_KEY}/latest/USD"
 response = requests.get(url)
 data = response.json()
